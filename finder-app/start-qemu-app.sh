@@ -7,7 +7,7 @@ set -e
 OUTDIR=$1
 
 if [ -z "${OUTDIR}" ]; then
-    OUTDIR=/tmp/aeld
+    OUTDIR=  /tmp/aesd-autograder #/tmp/aeld
     echo "No outdir specified, using ${OUTDIR}"
 fi
 
